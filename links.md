@@ -2,6 +2,8 @@
 
 [Классификация языков программирования](https://wiki.livid.pp.ru/students/sp/lectures/2.html)
 
+[Основы Python](https://academy.yandex.ru/handbook/python)
+
 [ООП на Python: концепции, принципы и примеры реализации](https://proglib.io/p/python-oop)
 
 [MRO – порядок разрешения методов в Python](https://tirinox.ru/mro-python/)
@@ -12,7 +14,7 @@
 
 [ООП с примерами (часть 2)](https://habr.com/ru/post/87205/)
 
-[Наследование и композиция: руководство по ООП в Python](https://webdevblog.ru/nasledovanie-i-kompoziciya-rukovodstvo-po-oop-python/#whats-composition)
+[Наследование и композиция: руководство по ООП в Python](https://webdevblog.ru/nasledovanie-i-kompoziciya-rukovodstvo-po-oop-python/)
 
 [Pro Git book](https://git-scm.com/book/ru/v2)
 
