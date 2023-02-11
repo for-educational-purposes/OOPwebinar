@@ -20,6 +20,18 @@
 """
 
 
+class FigureReport:
+    message = '{}. Area: {:05.3f}. Perimeter: {:06.3f}'
+
+    def __init__(self, figure, area, perimeter):
+        self.figure = figure
+        self.area = area
+        self.perimeter = perimeter
+
+    def get_message(self):
+        return self.message.format(self.figure, self.area, self.perimeter)
+
+
 class Figure:
     def __init__(self, name):
         self.name = name
@@ -29,6 +41,9 @@ class Figure:
 
     def get_perimeter(self):
         raise NotImplementedError
+
+    def get_report(self):
+        return FigureReport(str(self), self.get_area(), self.get_perimeter())
 
     def __str__(self):
         return f'Class name: {type(self).__name__}, Instance name: {self.name}'
@@ -64,3 +79,11 @@ class Circle(Figure):
 
     def get_perimeter(self):
         return 2 * Circle.pi * self.r
+
+
+if __name__ == '__main__':
+
+    f = Figure('фигура')
+
+    print(f.get_area())
+    print(f.get_perimeter())
