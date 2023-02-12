@@ -18,3 +18,5 @@
 [Управление удаленными репозиториями](https://docs.github.com/ru/get-started/getting-started-with-git/managing-remote-repositories)
 
 [Pro Git book](https://git-scm.com/book/ru/v2)
+
+[Звёздный Python: где и как используются * и **](https://tproger.ru/translations/asterisks-in-python-what-they-are-and-how-to-use-them/)
